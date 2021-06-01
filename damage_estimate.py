@@ -40,7 +40,7 @@ def main(inargs):
     # calculate expected damage using specified vulnerability curve data
     damage = ff.expected_damage(df, vc)
 
-    # specific the maximum damage before plotting 
+    # specify the maximum damage before plotting 
     if inargs.vcurve:
         max_damage = 134000
         print('have used specified vulnerability curve')
